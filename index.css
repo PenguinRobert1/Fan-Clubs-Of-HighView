@@ -20,3 +20,37 @@ h1.YourPeople {
     margin: 0;
     font-size: 60px;
 }
+
+h1.pol {
+    color: lightgray;
+    text-align: left;
+    margin: 0;
+    font-size: 45px;
+}
+
+a {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+    margin: 1px; /* Margin for spacing */
+    text-align: center;
+}
+
+.button-container {
+    text-align: center; /* Centers the child element horizontally */
+}
+
+a:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+a:active {
+    background-color: #3e8e41; /* Darker green on click */
+    transform: scale(0.95); /* Slightly shrink on click */
+}
