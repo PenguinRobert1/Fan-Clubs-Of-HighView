@@ -64,7 +64,7 @@ a:active {
     bottom: -100px; /* Start off-screen */
     left: 0;
     width: 100%;
-    background-color: #4CAF50; /* Green background */
+    background-color: rgb(148, 236, 224) /* Green background */
     color: white; /* White text */
     text-align: center;
     padding: 20px;
