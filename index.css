@@ -37,8 +37,12 @@ a {
     font-size: 16px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
-    margin: 1px; /* Margin for spacing */
+    margin-: 23px; /* Margin for spacing */
     text-align: center;
+}
+
+.dumbmiles {
+    text-align: left;
 }
 
 .button-container {
