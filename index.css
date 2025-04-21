@@ -58,3 +58,38 @@ a:active {
     background-color: #3e8e41; /* Darker green on click */
     transform: scale(0.95); /* Slightly shrink on click */
 }
+
+.notification-bar {
+    position: fixed;
+    bottom: -100px; /* Start off-screen */
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    transition: bottom 0.5s ease; /* Smooth slide-in/out animation */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.notification-bar p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.notification-bar button {
+    background-color: white; /* White button */
+    color: #4CAF50; /* Green text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.notification-bar button:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
