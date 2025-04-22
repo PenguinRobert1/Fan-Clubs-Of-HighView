@@ -1,6 +1,7 @@
 // Show the notification bar
 function showNotification() {
     const notificationBar = document.getElementById('notification-bar');
+    notificationBar.style.display = 'flex';
     notificationBar.style.bottom = '0'; // Slide it into view
 }
 

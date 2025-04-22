@@ -64,8 +64,8 @@ a:active {
     bottom: -100px; /* Start off-screen */
     left: 0;
     width: 100%;
-    background-color: rgb(148, 236, 224) /* Green background */
-    color: white; /* White text */
+    background-color: rgb(148, 236, 224); /* Green background */
+    color: black; /* text color */
     text-align: center;
     padding: 20px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
@@ -76,20 +76,25 @@ a:active {
 .notification-bar p {
     margin: 0;
     font-size: 18px;
+    flex: 1;
+    text-align: left;
+    margin-top: 15px;
 }
 
 .notification-bar button {
-    background-color: white; /* White button */
-    color: #4CAF50; /* Green text */
+    background-color: gray; /* White button */
+    color: white; /* Green text */
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 6px;
     transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: 50px;
 }
 
 .notification-bar button:hover {
-    background-color: #f1f1f1; /* Light gray on hover */
+    background-color: lightgray; /* Light gray on hover */
 }
