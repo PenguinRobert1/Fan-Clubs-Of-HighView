@@ -15,4 +15,8 @@ function hideNotification() {
 document.getElementById('close-notification').addEventListener('click', hideNotification);
 
 // Automatically show the notification bar after 1 second
-window.onload = showNotification;
+document.addEventListener('DOMContentLoaded', () => {
+    const notificationBar = document.getElementById('notification-bar');
+    notificationBar.style.display = 'flex';
+    notificationBar.style.bottom = '0'; // Slide it into view
+});
