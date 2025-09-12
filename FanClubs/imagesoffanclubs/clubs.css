@@ -1,0 +1,5 @@
+#galaxy img {
+  width: 100%; /* Stretches the image to 100% of its container's width */
+  height: 300px; /* Maintains the image's aspect ratio */
+  display: block; /* Prevents unwanted spacing below the image */
+}
