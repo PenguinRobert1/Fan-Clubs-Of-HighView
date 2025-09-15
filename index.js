@@ -20,3 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
     notificationBar.style.display = 'flex';
     notificationBar.style.bottom = '0'; // Slide it into view
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+    (function() {
+      const mainElement = document.getElementById('main');
+      mainElement.style.position = 'absolute';
+      mainElement.style.top = '7px';
+      mainElement.style.left = '10px';
+    })();
